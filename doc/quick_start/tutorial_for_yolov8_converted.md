@@ -60,7 +60,6 @@ Then we will get three files: best.xml, best.bin, and best.mapping under the mod
 
 # Move to the Recommended Model Path
 ```
-cd ~/yolov8/model_convert
 mkdir -p  /opt/openvino_toolkit/models/convert/public/yolov8n
 
 mv best.bin yolov8.bin
@@ -70,6 +69,7 @@ mv best.pt yolov8.pt
 mv best.xml yolov8.xml
 
 sudo cp yolov8* /opt/openvino_toolkit/models/convert/public/yolov8n
+
 ```
 
 # FAQ
